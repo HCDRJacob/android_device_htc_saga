@@ -34,6 +34,7 @@ BOARD_USES_RECOVERY_CHARGEMODE := true
 BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
 BOARD_SDCARD_DEVICE_SECONDARY := /dev/block/mmcblk1
 BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p2
+BOARD_HAS_LARGE_FILESYSTEM := true
 
 # cat /proc/emmc
 # dev:        size     erasesize name
